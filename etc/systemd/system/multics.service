@@ -1,0 +1,15 @@
+[Unit]
+Description=multics
+After=network.target
+Requires=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/mutics-x64  -b -C /var/etc/multics/multics.conf -v -f /var/log/multics/multics.log  -n
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

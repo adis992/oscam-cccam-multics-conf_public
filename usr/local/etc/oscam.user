@@ -1,0 +1,27 @@
+# oscam.user generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r11399
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.user.txt
+
+[account]
+user                          = dvbapiau
+monlevel                      = 4
+au                            = 1
+group                         = 1
+max_connections               = 100
+
+[account]
+disabled                      = 1
+user                          = 2nd_box
+pwd                           = 2nd_box
+monlevel                      = 4
+au                            = 1
+group                         = 1,2
+
+[account]
+disabled                      = 1
+user                          = test
+pwd                           = 1234
+monlevel                      = 4
+au                            = 1
+group                         = 1
+
+

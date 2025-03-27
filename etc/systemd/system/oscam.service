@@ -1,0 +1,17 @@
+[Unit]
+Description=OSCam
+After=network.target
+Requires=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/oscam  -b -c /usr/local/etc/ -t /tmp/.oscam -B /var/run/oscam.pid -I oscam -d 0 -r 2 -p 1024
+ExecStop=/bin/rm /var/run/oscam.pid
+TimeoutStopSec=1
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+
