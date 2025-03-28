@@ -17,6 +17,7 @@ cp -r "$REPO_DIR/var/"* /var/
 echo "[+] Kreiram runtime foldere ako ne postoje....."
 
 mkdir -p /tmp/.oscam
+touch /tmp/.oscam/stat
 touch /var/run/oscam.pid
 touch /tmp/warnings.txt 
 chmod 755 /tmp/warnings.txt
