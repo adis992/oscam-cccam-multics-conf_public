@@ -1256,5 +1256,13 @@ password                      = viass
 connectoninit                 = 1
 group                         = 1
 
-
+[reader]
+label                         = Conax Arena/Pink DTV
+protocol                      = newcamd
+device                        = 127.0.0.1,5637
+key                           = 0102030405060708091011121314
+user                          = conax
+password                      = pink
+connectoninit                 = 1
+group                         = 1
 
