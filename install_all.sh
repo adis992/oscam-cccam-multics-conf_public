@@ -25,6 +25,8 @@ touch /var/keys/SoftCam.Key
 touch /var/keys/AutoRoll.Key
 touch /var/keys/constant.cw
 mkdir -p /usr/local/etc
+mkdir -p /usr/local/etc/cw
+mkdir -p /usr/local/etc/emm
 touch /usr/local/etc/SoftCam.Key
 touch /usr/local/etc/constant.cw
 touch /usr/local/etc/AutoRoll.Key
