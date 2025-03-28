@@ -5,7 +5,7 @@ Requires=network.target
 
 [Service]
 Type=forking
-ExecStart=/usr/bin/mutics-x64  -b -C /var/etc/multics/multics.cfg -v -f /var/log/multics/multics.log  -n
+ExecStart=/usr/bin/multics-x64  -b -C /var/etc/multics/multics.cfg -v -f /var/etc/multics/multics.log  -n
 Restart=always
 RestartSec=5
 StartLimitInterval=0
