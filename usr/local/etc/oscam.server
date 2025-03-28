@@ -34,7 +34,7 @@ cooldown                      = 30,600
 [reader]
 label                         = Mainreceiver
 protocol                      = cs378x
-device                        = 192.168.100.21,6500
+device                        = 127.0.0.1,6500
 user                          = user111
 password                      = pass111
 keepalive                     = 1
@@ -46,7 +46,7 @@ emmcache                      = 1,3,15,0
 [reader]
 label                         = local-cccam
 protocol                      = cccam_mcs
-device                        = 192.168.100.21,20000
+device                        = 127.0.0.1,20000
 user                          = test
 password                      = test
 inactivitytimeout             = 30
@@ -60,7 +60,7 @@ ccckeepalive                  = 1
 [reader]
 label                         = MGCAMD
 protocol                      = newcamd
-device                        = 192.168.100.21,23000
+device                        = 127.0.0.1,23000
 key                           = 0102030405060708091011121314
 user                          = user1
 password                      = pass1
@@ -71,7 +71,7 @@ group                         = 1
 [reader]
 label                         = cs357
 protocol                      = cs357x
-device                        = 192.168.100.21,8600
+device                        = 127.0.0.1,8600
 user                          = user11
 password                      = pass11
 group                         = 1
@@ -79,7 +79,7 @@ group                         = 1
 [reader]
 label                         = ncamd
 protocol                      = newcamd
-device                        = 192.168.100.21,5510
+device                        = 127.0.0.1,5510
 key                           = 0102030405060708091011121314
 user                          = MaxTV
 password                      = MaxTV
@@ -89,7 +89,7 @@ group                         = 1
 [reader]
 label                         = CSAT_Seca
 protocol                      = newcamd
-device                        = 192.168.100.21,5511
+device                        = 127.0.0.1,5511
 key                           = 0102030405060708091011121314
 user                          = CSAT
 password                      = FRANC
@@ -99,7 +99,7 @@ group                         = 1
 [reader]
 label                         = SkyIT_09CD
 protocol                      = newcamd
-device                        = 192.168.100.21,5512
+device                        = 127.0.0.1,5512
 key                           = 0102030405060708091011121314
 user                          = 13sky
 password                      = itali
@@ -109,7 +109,7 @@ group                         = 1
 [reader]
 label                         = HRT_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5513
+device                        = 127.0.0.1,5513
 key                           = 0102030405060708091011121314
 user                          = eutel
 password                      = hrtovi
@@ -119,7 +119,7 @@ group                         = 1
 [reader]
 label                         = MeoTV_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5514
+device                        = 127.0.0.1,5514
 key                           = 0102030405060708091011121314
 user                          = MeoTV
 password                      = 0100
@@ -129,7 +129,7 @@ group                         = 1
 [reader]
 label                         = AthinaSat_5581
 protocol                      = newcamd
-device                        = 192.168.100.21,5515
+device                        = 127.0.0.1,5515
 key                           = 0102030405060708091011121314
 user                          = SatBG
 password                      = hellas
@@ -139,7 +139,7 @@ group                         = 1
 [reader]
 label                         = UPC_0D02
 protocol                      = newcamd
-device                        = 192.168.100.21,5516
+device                        = 127.0.0.1,5516
 key                           = 0102030405060708091011121314
 user                          = UPC
 password                      = astra
@@ -149,7 +149,7 @@ group                         = 1
 [reader]
 label                         = Digital+_1810
 protocol                      = newcamd
-device                        = 192.168.100.21,5517
+device                        = 127.0.0.1,5517
 key                           = 0102030405060708091011121314
 user                          = digital
 password                      = spain
@@ -159,7 +159,7 @@ group                         = 1
 [reader]
 label                         = ORF_Full
 protocol                      = newcamd
-device                        = 192.168.100.21,5518
+device                        = 127.0.0.1,5518
 key                           = 0102030405060708091011121314
 user                          = ORF
 password                      = austria
@@ -169,7 +169,7 @@ group                         = 1
 [reader]
 label                         = ORF_Full_HD
 protocol                      = newcamd
-device                        = 192.168.100.21,5519
+device                        = 127.0.0.1,5519
 key                           = 0102030405060708091011121314
 user                          = HDorf
 password                      = ostereich
@@ -179,7 +179,7 @@ group                         = 1
 [reader]
 label                         = TivuSat_183D
 protocol                      = newcamd
-device                        = 192.168.100.21,5520
+device                        = 127.0.0.1,5520
 key                           = 0102030405060708091011121314
 user                          = TivuSat
 password                      = 183D
@@ -189,7 +189,7 @@ group                         = 1
 [reader]
 label                         = KabelKiosk_9E_0B00
 protocol                      = newcamd
-device                        = 192.168.100.21,5521
+device                        = 127.0.0.1,5521
 key                           = 0102030405060708091011121314
 user                          = kabel
 password                      = deuts
@@ -199,7 +199,7 @@ group                         = 1
 [reader]
 label                         = Max5E-12W_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5522
+device                        = 127.0.0.1,5522
 key                           = 0102030405060708091011121314
 user                          = AktaTV
 password                      = o5oo
@@ -209,7 +209,7 @@ group                         = 1
 [reader]
 label                         = DigiALB_0B00
 protocol                      = newcamd
-device                        = 192.168.100.21,5523
+device                        = 127.0.0.1,5523
 key                           = 0102030405060708091011121314
 user                          = digi
 password                      = alba
@@ -219,7 +219,7 @@ group                         = 1
 [reader]
 label                         = SkyDE_1702
 protocol                      = newcamd
-device                        = 192.168.100.21,5524
+device                        = 127.0.0.1,5524
 key                           = 0102030405060708091011121314
 user                          = skyde
 password                      = njem
@@ -229,7 +229,7 @@ group                         = 1
 [reader]
 label                         = Deepam_HD
 protocol                      = newcamd
-device                        = 192.168.100.21,5525
+device                        = 127.0.0.1,5525
 key                           = 0102030405060708091011121314
 user                          = MTVHD
 password                      = music
@@ -239,7 +239,7 @@ group                         = 1
 [reader]
 label                         = OrangeFR_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5526
+device                        = 127.0.0.1,5526
 key                           = 0102030405060708091011121314
 user                          = orange
 password                      = fran
@@ -249,7 +249,7 @@ group                         = 1
 [reader]
 label                         = Alfa_Sitel_39E_16E
 protocol                      = newcamd
-device                        = 192.168.100.21,5527
+device                        = 127.0.0.1,5527
 key                           = 0102030405060708091011121314
 user                          = nova
 password                      = grec
@@ -259,7 +259,7 @@ group                         = 1
 [reader]
 label                         = Canal_Digitaal_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5528
+device                        = 127.0.0.1,5528
 key                           = 0102030405060708091011121314
 user                          = canal
 password                      = nederland
@@ -269,7 +269,7 @@ group                         = 1
 [reader]
 label                         = DigiTurkCW_0D00
 protocol                      = newcamd
-device                        = 192.168.100.21,5529
+device                        = 127.0.0.1,5529
 key                           = 0102030405060708091011121314
 user                          = Digi
 password                      = Turk
@@ -279,7 +279,7 @@ group                         = 1
 [reader]
 label                         = Cabo30W_1802
 protocol                      = newcamd
-device                        = 192.168.100.21,5530
+device                        = 127.0.0.1,5530
 key                           = 0102030405060708091011121314
 user                          = cabotv
 password                      = espana
@@ -289,7 +289,7 @@ group                         = 1
 [reader]
 label                         = SKY_DE_NDS1
 protocol                      = newcamd
-device                        = 192.168.100.21,5531
+device                        = 127.0.0.1,5531
 key                           = 0102030405060708091011121314
 user                          = SKAY
 password                      = njemacka
@@ -299,7 +299,7 @@ group                         = 1
 [reader]
 label                         = CanalSat_Viaccess_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5532
+device                        = 127.0.0.1,5532
 key                           = 0102030405060708091011121314
 user                          = CanalSat
 password                      = Franc
@@ -309,7 +309,7 @@ group                         = 1
 [reader]
 label                         = Polsat_1803
 protocol                      = newcamd
-device                        = 192.168.100.21,5533
+device                        = 127.0.0.1,5533
 key                           = 0102030405060708091011121314
 user                          = Polsat
 password                      = klasik
@@ -319,7 +319,7 @@ group                         = 1
 [reader]
 label                         = DigiTurkHD_0664
 protocol                      = newcamd
-device                        = 192.168.100.21,5534
+device                        = 127.0.0.1,5534
 key                           = 0102030405060708091011121314
 user                          = turk
 password                      = hddigi
@@ -329,7 +329,7 @@ group                         = 1
 [reader]
 label                         = PlatFormaHD_4AE1
 protocol                      = newcamd
-device                        = 192.168.100.21,5535
+device                        = 127.0.0.1,5535
 key                           = 0102030405060708091011121314
 user                          = platformaHD
 password                      = 4AE1
@@ -339,7 +339,7 @@ group                         = 1
 [reader]
 label                         = BissTV_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5536
+device                        = 127.0.0.1,5536
 key                           = 0102030405060708091011121314
 user                          = BissTV
 password                      = fransat
@@ -349,7 +349,7 @@ group                         = 1
 [reader]
 label                         = SRG_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5537
+device                        = 127.0.0.1,5537
 key                           = 0102030405060708091011121314
 user                          = SRG
 password                      = swiss
@@ -359,7 +359,7 @@ group                         = 1
 [reader]
 label                         = Redlight_SCT
 protocol                      = newcamd
-device                        = 192.168.100.21,5538
+device                        = 127.0.0.1,5538
 key                           = 0102030405060708091011121314
 user                          = TotalTV
 password                      = 091F
@@ -369,7 +369,7 @@ group                         = 1
 [reader]
 label                         = Sky_Deutschland_1833
 protocol                      = newcamd
-device                        = 192.168.100.21,5539
+device                        = 127.0.0.1,5539
 key                           = 0102030405060708091011121314
 user                          = deutch
 password                      = land
@@ -379,7 +379,7 @@ group                         = 1
 [reader]
 label                         = YES_4W_090D
 protocol                      = newcamd
-device                        = 192.168.100.21,5540
+device                        = 127.0.0.1,5540
 key                           = 0102030405060708091011121314
 user                          = YES
 password                      = o9oD
@@ -389,7 +389,7 @@ group                         = 1
 [reader]
 label                         = SkyDE_NDS_09C4
 protocol                      = newcamd
-device                        = 192.168.100.21,5541
+device                        = 127.0.0.1,5541
 key                           = 0102030405060708091011121314
 user                          = SkyDE
 password                      = NDS
@@ -399,7 +399,7 @@ group                         = 1
 [reader]
 label                         = TeleSat_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5542
+device                        = 127.0.0.1,5542
 key                           = 0102030405060708091011121314
 user                          = TeleSat
 password                      = o1oo
@@ -409,7 +409,7 @@ group                         = 1
 [reader]
 label                         = NPoland_0B01
 protocol                      = newcamd
-device                        = 192.168.100.21,5543
+device                        = 127.0.0.1,5543
 key                           = 0102030405060708091011121314
 user                          = NPoland
 password                      = eo13
@@ -419,7 +419,7 @@ group                         = 1
 [reader]
 label                         = OrangePL_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5544
+device                        = 127.0.0.1,5544
 key                           = 0102030405060708091011121314
 user                          = OrangePL
 password                      = hotbi
@@ -429,7 +429,7 @@ group                         = 1
 [reader]
 label                         = HDPlus_1830
 protocol                      = newcamd
-device                        = 192.168.100.21,5545
+device                        = 127.0.0.1,5545
 key                           = 0102030405060708091011121314
 user                          = PlusHD
 password                      = 019e
@@ -439,7 +439,7 @@ group                         = 1
 [reader]
 label                         = ContoTV_13E
 protocol                      = newcamd
-device                        = 192.168.100.21,5546
+device                        = 127.0.0.1,5546
 key                           = 0102030405060708091011121314
 user                          = Conto
 password                      = porno13
@@ -449,7 +449,7 @@ group                         = 1
 [reader]
 label                         = ViaSat_090F
 protocol                      = newcamd
-device                        = 192.168.100.21,5547
+device                        = 127.0.0.1,5547
 key                           = 0102030405060708091011121314
 user                          = ViaSat
 password                      = 09of
@@ -459,7 +459,7 @@ group                         = 1
 [reader]
 label                         = SkyIT_093B
 protocol                      = newcamd
-device                        = 192.168.100.21,5548
+device                        = 127.0.0.1,5548
 key                           = 0102030405060708091011121314
 user                          = SkyIT
 password                      = ital13e
@@ -469,7 +469,7 @@ group                         = 1
 [reader]
 label                         = TVN_0B00
 protocol                      = newcamd
-device                        = 192.168.100.21,5549
+device                        = 127.0.0.1,5549
 key                           = 0102030405060708091011121314
 user                          = TVN
 password                      = na13e
@@ -479,7 +479,7 @@ group                         = 1
 [reader]
 label                         = Tring_Hello_0BAA
 protocol                      = newcamd
-device                        = 192.168.100.21,5550
+device                        = 127.0.0.1,5550
 key                           = 0102030405060708091011121314
 user                          = Tring+Hello
 password                      = eutel
@@ -489,7 +489,7 @@ group                         = 1
 [reader]
 label                         = SkyUK_0963
 protocol                      = newcamd
-device                        = 192.168.100.21,5551
+device                        = 127.0.0.1,5551
 key                           = 0102030405060708091011121314
 user                          = englez
 password                      = SkyUK
@@ -499,7 +499,7 @@ group                         = 1
 [reader]
 label                         = AllSex_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5552
+device                        = 127.0.0.1,5552
 key                           = 0102030405060708091011121314
 user                          = AllSex
 password                      = clasic
@@ -509,7 +509,7 @@ group                         = 1
 [reader]
 label                         = ART_SHOWTIME_0604
 protocol                      = newcamd
-device                        = 192.168.100.21,5553
+device                        = 127.0.0.1,5553
 key                           = 0102030405060708091011121314
 user                          = ADD
 password                      = neznam
@@ -519,7 +519,7 @@ group                         = 1
 [reader]
 label                         = Canal+_NL_0622
 protocol                      = newcamd
-device                        = 192.168.100.21,5554
+device                        = 127.0.0.1,5554
 key                           = 0102030405060708091011121314
 user                          = Canal-Digitaal
 password                      = holand
@@ -529,7 +529,7 @@ group                         = 1
 [reader]
 label                         = HDPlus_Germany_1843
 protocol                      = newcamd
-device                        = 192.168.100.21,5555
+device                        = 127.0.0.1,5555
 key                           = 0102030405060708091011121314
 user                          = germany
 password                      = hdplus
@@ -539,7 +539,7 @@ group                         = 1
 [reader]
 label                         = RRSat_MGM
 protocol                      = newcamd
-device                        = 192.168.100.21,5556
+device                        = 127.0.0.1,5556
 key                           = 0102030405060708091011121314
 user                          = DSMART
 password                      = 092B
@@ -549,7 +549,7 @@ group                         = 1
 [reader]
 label                         = ViaSat_New_093E
 protocol                      = newcamd
-device                        = 192.168.100.21,5557
+device                        = 127.0.0.1,5557
 key                           = 0102030405060708091011121314
 user                          = new093E
 password                      = viasat
@@ -559,7 +559,7 @@ group                         = 1
 [reader]
 label                         = Polaris_4AEE
 protocol                      = newcamd
-device                        = 192.168.100.21,5558
+device                        = 127.0.0.1,5558
 key                           = 0102030405060708091011121314
 user                          = satteliteBG
 password                      = 4AEE
@@ -569,7 +569,7 @@ group                         = 1
 [reader]
 label                         = BFBS_0D07
 protocol                      = newcamd
-device                        = 192.168.100.21,5559
+device                        = 127.0.0.1,5559
 key                           = 0102030405060708091011121314
 user                          = BFBS
 password                      = provODO7
@@ -579,7 +579,7 @@ group                         = 1
 [reader]
 label                         = DIGITV_Yugo_1880
 protocol                      = newcamd
-device                        = 192.168.100.21,5560
+device                        = 127.0.0.1,5560
 key                           = 0102030405060708091011121314
 user                          = DIGITV
 password                      = 1880
@@ -589,7 +589,7 @@ group                         = 1
 [reader]
 label                         = DIGITV_Yugo_1802
 protocol                      = newcamd
-device                        = 192.168.100.21,5561
+device                        = 127.0.0.1,5561
 key                           = 0102030405060708091011121314
 user                          = YUDIGI
 password                      = 1802
@@ -599,7 +599,7 @@ group                         = 1
 [reader]
 label                         = Sky_Deutschland_1722
 protocol                      = newcamd
-device                        = 192.168.100.21,5562
+device                        = 127.0.0.1,5562
 key                           = 0102030405060708091011121314
 user                          = unitymedia
 password                      = 1722
@@ -609,7 +609,7 @@ group                         = 1
 [reader]
 label                         = Cyfra+_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5563
+device                        = 127.0.0.1,5563
 key                           = 0102030405060708091011121314
 user                          = cyfra
 password                      = ljakpo
@@ -619,7 +619,7 @@ group                         = 1
 [reader]
 label                         = Hayat_Eutelsat_16
 protocol                      = newcamd
-device                        = 192.168.100.21,5564
+device                        = 127.0.0.1,5564
 key                           = 0102030405060708091011121314
 user                          = hajat
 password                      = eutelsat
@@ -629,7 +629,7 @@ group                         = 1
 [reader]
 label                         = KabelHD_1834
 protocol                      = newcamd
-device                        = 192.168.100.21,5565
+device                        = 127.0.0.1,5565
 key                           = 0102030405060708091011121314
 user                          = KabelHD
 password                      = $1834
@@ -639,7 +639,7 @@ group                         = 1
 [reader]
 label                         = Powerkhnost_DTH_36e
 protocol                      = newcamd
-device                        = 192.168.100.21,5566
+device                        = 127.0.0.1,5566
 key                           = 0102030405060708091011121314
 user                          = POLARIS
 password                      = hellas
@@ -649,7 +649,7 @@ group                         = 1
 [reader]
 label                         = Unitymedia_1835
 protocol                      = newcamd
-device                        = 192.168.100.21,5567
+device                        = 127.0.0.1,5567
 key                           = 0102030405060708091011121314
 user                          = 3Unitymedia
 password                      = &1835
@@ -659,7 +659,7 @@ group                         = 1
 [reader]
 label                         = TV_Slovenija_16E
 protocol                      = newcamd
-device                        = 192.168.100.21,5568
+device                        = 127.0.0.1,5568
 key                           = 0102030405060708091011121314
 user                          = Slovenija
 password                      = tv.16e
@@ -669,7 +669,7 @@ group                         = 1
 [reader]
 label                         = PINKirdeto_16E
 protocol                      = newcamd
-device                        = 192.168.100.21,5569
+device                        = 127.0.0.1,5569
 key                           = 0102030405060708091011121314
 user                          = PINK
 password                      = ir16.e
@@ -679,7 +679,7 @@ group                         = 1
 [reader]
 label                         = MAX_TV
 protocol                      = newcamd
-device                        = 192.168.100.21,5570
+device                        = 127.0.0.1,5570
 key                           = 0102030405060708091011121314
 user                          = MAXTV
 password                      = nekomp
@@ -689,7 +689,7 @@ group                         = 1
 [reader]
 label                         = SkyLink_0d96
 protocol                      = newcamd
-device                        = 192.168.100.21,5571
+device                        = 127.0.0.1,5571
 key                           = 0102030405060708091011121314
 user                          = CS
 password                      = LINK
@@ -699,7 +699,7 @@ group                         = 1
 [reader]
 label                         = SkyLink_0D0F
 protocol                      = newcamd
-device                        = 192.168.100.21,5572
+device                        = 127.0.0.1,5572
 key                           = 0102030405060708091011121314
 user                          = sky
 password                      = blink
@@ -709,7 +709,7 @@ group                         = 1
 [reader]
 label                         = SkyLink_0D03
 protocol                      = newcamd
-device                        = 192.168.100.21,5573
+device                        = 127.0.0.1,5573
 key                           = 0102030405060708091011121314
 user                          = bSky
 password                      = BLink
@@ -719,7 +719,7 @@ group                         = 1
 [reader]
 label                         = D+SECA_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5574
+device                        = 127.0.0.1,5574
 key                           = 0102030405060708091011121314
 user                          = adigi
 password                      = aspa
@@ -729,7 +729,7 @@ group                         = 1
 [reader]
 label                         = Focus1W_0B02
 protocol                      = newcamd
-device                        = 192.168.100.21,5575
+device                        = 127.0.0.1,5575
 key                           = 0102030405060708091011121314
 user                          = focus
 password                      = C0b02
@@ -739,7 +739,7 @@ group                         = 1
 [reader]
 label                         = Digital+_1815
 protocol                      = newcamd
-device                        = 192.168.100.21,5576
+device                        = 127.0.0.1,5576
 key                           = 0102030405060708091011121314
 user                          = gitaldi
 password                      = 5181
@@ -749,7 +749,7 @@ group                         = 1
 [reader]
 label                         = Sky_Italia_0919
 protocol                      = newcamd
-device                        = 192.168.100.21,5577
+device                        = 127.0.0.1,5577
 key                           = 0102030405060708091011121314
 user                          = SKY
 password                      = TALIA
@@ -759,7 +759,7 @@ group                         = 1
 [reader]
 label                         = HalloHD_9E_0baa
 protocol                      = newcamd
-device                        = 192.168.100.21,5578
+device                        = 127.0.0.1,5578
 key                           = 0102030405060708091011121314
 user                          = hallo
 password                      = hd9e
@@ -769,7 +769,7 @@ group                         = 1
 [reader]
 label                         = bein_sport
 protocol                      = newcamd
-device                        = 192.168.100.21,5579
+device                        = 127.0.0.1,5579
 key                           = 0102030405060708091011121314
 user                          = beinsp
 password                      = ort19
@@ -779,7 +779,7 @@ group                         = 1
 [reader]
 label                         = UPC_0653
 protocol                      = newcamd
-device                        = 192.168.100.21,5580
+device                        = 127.0.0.1,5580
 key                           = 0102030405060708091011121314
 user                          = 23upc
 password                      = direkt
@@ -789,7 +789,7 @@ group                         = 1
 [reader]
 label                         = Satellite_BG_0d06
 protocol                      = newcamd
-device                        = 192.168.100.21,5581
+device                        = 127.0.0.1,5581
 key                           = 0102030405060708091011121314
 user                          = total
 password                      = BG0d06
@@ -799,7 +799,7 @@ group                         = 1
 [reader]
 label                         = TVP_09B2
 protocol                      = newcamd
-device                        = 192.168.100.21,5582
+device                        = 127.0.0.1,5582
 key                           = 0102030405060708091011121314
 user                          = TVP
 password                      = kajlop
@@ -809,7 +809,7 @@ group                         = 1
 [reader]
 label                         = Canal_Digital_Nordic_0B00
 protocol                      = newcamd
-device                        = 192.168.100.21,5583
+device                        = 127.0.0.1,5583
 key                           = 0102030405060708091011121314
 user                          = nordic
 password                      = canal
@@ -819,7 +819,7 @@ group                         = 1
 [reader]
 label                         = C+Maghreb_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5584
+device                        = 127.0.0.1,5584
 key                           = 0102030405060708091011121314
 user                          = c+mag
 password                      = hreb
@@ -829,7 +829,7 @@ group                         = 1
 [reader]
 label                         = Total_091F
 protocol                      = newcamd
-device                        = 192.168.100.21,5585
+device                        = 127.0.0.1,5585
 key                           = 0102030405060708091011121314
 user                          = total
 password                      = rom92
@@ -839,7 +839,7 @@ group                         = 1
 [reader]
 label                         = AlMajd_0D08
 protocol                      = newcamd
-device                        = 192.168.100.21,5586
+device                        = 127.0.0.1,5586
 key                           = 0102030405060708091011121314
 user                          = AlMajd
 password                      = ka0D08
@@ -849,7 +849,7 @@ group                         = 1
 [reader]
 label                         = SCT_Redli_Hust_0647
 protocol                      = newcamd
-device                        = 192.168.100.21,5587
+device                        = 127.0.0.1,5587
 key                           = 0102030405060708091011121314
 user                          = pover
 password                      = khnost
@@ -859,7 +859,7 @@ group                         = 1
 [reader]
 label                         = beIN_Sports_0603
 protocol                      = newcamd
-device                        = 192.168.100.21,5588
+device                        = 127.0.0.1,5588
 key                           = 0102030405060708091011121314
 user                          = sport
 password                      = sbein
@@ -869,7 +869,7 @@ group                         = 1
 [reader]
 label                         = Numericable_0100
 protocol                      = newcamd
-device                        = 192.168.100.21,5589
+device                        = 127.0.0.1,5589
 key                           = 0102030405060708091011121314
 user                          = numeri
 password                      = cable
@@ -879,7 +879,7 @@ group                         = 1
 [reader]
 label                         = JSC_IR_0603
 protocol                      = newcamd
-device                        = 192.168.100.21,5590
+device                        = 127.0.0.1,5590
 key                           = 0102030405060708091011121314
 user                          = jsci
 password                      = r0603
@@ -889,7 +889,7 @@ group                         = 1
 [reader]
 label                         = BULSATCOM_0604
 protocol                      = newcamd
-device                        = 192.168.100.21,5591
+device                        = 127.0.0.1,5591
 key                           = 0102030405060708091011121314
 user                          = bulsat
 password                      = com0604
@@ -899,7 +899,7 @@ group                         = 1
 [reader]
 label                         = KaDeu_ostalo
 protocol                      = newcamd
-device                        = 192.168.100.21,5592
+device                        = 127.0.0.1,5592
 key                           = 0102030405060708091011121314
 user                          = KaDeu
 password                      = ostalo
@@ -909,7 +909,7 @@ group                         = 1
 [reader]
 label                         = NTV_HD_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5593
+device                        = 127.0.0.1,5593
 key                           = 0102030405060708091011121314
 user                          = NTV
 password                      = HD0500
@@ -919,7 +919,7 @@ group                         = 1
 [reader]
 label                         = ORANGE_ROMANIA_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5594
+device                        = 127.0.0.1,5594
 key                           = 0102030405060708091011121314
 user                          = romania
 password                      = orange
@@ -929,7 +929,7 @@ group                         = 1
 [reader]
 label                         = CanSat_Mezzo
 protocol                      = newcamd
-device                        = 192.168.100.21,5595
+device                        = 127.0.0.1,5595
 key                           = 0102030405060708091011121314
 user                          = CanSat
 password                      = Mezzo
@@ -939,7 +939,7 @@ group                         = 1
 [reader]
 label                         = Travel_Arena
 protocol                      = newcamd
-device                        = 192.168.100.21,5596
+device                        = 127.0.0.1,5596
 key                           = 0102030405060708091011121314
 user                          = dugara
 password                      = sijaru
@@ -949,7 +949,7 @@ group                         = 1
 [reader]
 label                         = SateliteBG_0B01
 protocol                      = newcamd
-device                        = 192.168.100.21,5597
+device                        = 127.0.0.1,5597
 key                           = 0102030405060708091011121314
 user                          = BGsate
 password                      = lite
@@ -959,7 +959,7 @@ group                         = 1
 [reader]
 label                         = OSN_7_0W
 protocol                      = newcamd
-device                        = 192.168.100.21,5598
+device                        = 127.0.0.1,5598
 key                           = 0102030405060708091011121314
 user                          = OSN
 password                      = 7.0W
@@ -969,7 +969,7 @@ group                         = 1
 [reader]
 label                         = Skylink_WDS_0622
 protocol                      = newcamd
-device                        = 192.168.100.21,5599
+device                        = 127.0.0.1,5599
 key                           = 0102030405060708091011121314
 user                          = ALBdi
 password                      = git0622
@@ -979,7 +979,7 @@ group                         = 1
 [reader]
 label                         = FREESAT_16E_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5600
+device                        = 127.0.0.1,5600
 key                           = 0102030405060708091011121314
 user                          = frees
 password                      = at0500
@@ -989,7 +989,7 @@ group                         = 1
 [reader]
 label                         = Mobistar_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5601
+device                        = 127.0.0.1,5601
 key                           = 0102030405060708091011121314
 user                          = mobi
 password                      = star
@@ -999,7 +999,7 @@ group                         = 1
 [reader]
 label                         = DishTV_0B00
 protocol                      = newcamd
-device                        = 192.168.100.21,5602
+device                        = 127.0.0.1,5602
 key                           = 0102030405060708091011121314
 user                          = dishT
 password                      = V0B00
@@ -1009,7 +1009,7 @@ group                         = 1
 [reader]
 label                         = SFR_0500
 protocol                      = newcamd
-device                        = 192.168.100.21,5603
+device                        = 127.0.0.1,5603
 key                           = 0102030405060708091011121314
 user                          = sfran
 password                      = ce0500
@@ -1019,7 +1019,7 @@ group                         = 1
 [reader]
 label                         = OSN_ok4e
 protocol                      = newcamd
-device                        = 192.168.100.21,5604
+device                        = 127.0.0.1,5604
 key                           = 0102030405060708091011121314
 user                          = OSN
 password                      = ok4e
@@ -1029,7 +1029,7 @@ group                         = 1
 [reader]
 label                         = Stream_ZEE
 protocol                      = newcamd
-device                        = 192.168.100.21,5605
+device                        = 127.0.0.1,5605
 key                           = 0102030405060708091011121314
 user                          = 8060
 password                      = manz
@@ -1039,7 +1039,7 @@ group                         = 1
 [reader]
 label                         = CS_Link_23E
 protocol                      = newcamd
-device                        = 192.168.100.21,5606
+device                        = 127.0.0.1,5606
 key                           = 0102030405060708091011121314
 user                          = 0660
 password                      = anze
@@ -1049,7 +1049,7 @@ group                         = 1
 [reader]
 label                         = Vision_5E_13E
 protocol                      = newcamd
-device                        = 192.168.100.21,5607
+device                        = 127.0.0.1,5607
 key                           = 0102030405060708091011121314
 user                          = 1390
 password                      = nzen
@@ -1059,7 +1059,7 @@ group                         = 1
 [reader]
 label                         = SRG_0500_2
 protocol                      = newcamd
-device                        = 192.168.100.21,5608
+device                        = 127.0.0.1,5608
 key                           = 0102030405060708091011121314
 user                          = 0690
 password                      = mnze
@@ -1069,7 +1069,7 @@ group                         = 1
 [reader]
 label                         = Mediaset
 protocol                      = newcamd
-device                        = 192.168.100.21,5609
+device                        = 127.0.0.1,5609
 key                           = 0102030405060708091011121314
 user                          = 5081
 password                      = azen
@@ -1079,7 +1079,7 @@ group                         = 1
 [reader]
 label                         = xyz
 protocol                      = newcamd
-device                        = 192.168.100.21,5610
+device                        = 127.0.0.1,5610
 key                           = 0102030405060708091011121314
 user                          = 2181
 password                      = mzen
@@ -1089,7 +1089,7 @@ group                         = 1
 [reader]
 label                         = Unitymedia_02
 protocol                      = newcamd
-device                        = 192.168.100.21,5611
+device                        = 127.0.0.1,5611
 key                           = 0102030405060708091011121314
 user                          = 8381
 password                      = nezna
@@ -1099,7 +1099,7 @@ group                         = 1
 [reader]
 label                         = 2xyz
 protocol                      = newcamd
-device                        = 192.168.100.21,5612
+device                        = 127.0.0.1,5612
 key                           = 0102030405060708091011121314
 user                          = e381
 password                      = eznam
@@ -1109,7 +1109,7 @@ group                         = 1
 [reader]
 label                         = RTVI_Kabelkiosk_9E_13E
 protocol                      = newcamd
-device                        = 192.168.100.21,5613
+device                        = 127.0.0.1,5613
 key                           = 0102030405060708091011121314
 user                          = fa90
 password                      = znam
@@ -1119,7 +1119,7 @@ group                         = 1
 [reader]
 label                         = Samostalni
 protocol                      = newcamd
-device                        = 192.168.100.21,5614
+device                        = 127.0.0.1,5614
 key                           = 0102030405060708091011121314
 user                          = samo
 password                      = stalni
@@ -1129,7 +1129,7 @@ group                         = 1
 [reader]
 label                         = ORF_Austriasat
 protocol                      = newcamd
-device                        = 192.168.100.21,5615
+device                        = 127.0.0.1,5615
 key                           = 0102030405060708091011121314
 user                          = stri
 password                      = asat
@@ -1139,7 +1139,7 @@ group                         = 1
 [reader]
 label                         = Skylink_SK_23E
 protocol                      = newcamd
-device                        = 192.168.100.21,5616
+device                        = 127.0.0.1,5616
 key                           = 0102030405060708091011121314
 user                          = kyli
 password                      = nksk
@@ -1149,7 +1149,7 @@ group                         = 1
 [reader]
 label                         = JSTV_13E
 protocol                      = newcamd
-device                        = 192.168.100.21,5617
+device                        = 127.0.0.1,5617
 key                           = 0102030405060708091011121314
 user                          = jstv
 password                      = tigre
@@ -1159,7 +1159,7 @@ group                         = 1
 [reader]
 label                         = Stellar
 protocol                      = newcamd
-device                        = 192.168.100.21,5618
+device                        = 127.0.0.1,5618
 key                           = 0102030405060708091011121314
 user                          = stel
 password                      = lar
@@ -1169,7 +1169,7 @@ group                         = 1
 [reader]
 label                         = dodatak_500
 protocol                      = newcamd
-device                        = 192.168.100.21,5619
+device                        = 127.0.0.1,5619
 key                           = 0102030405060708091011121314
 user                          = doda
 password                      = tak
@@ -1179,7 +1179,7 @@ group                         = 1
 [reader]
 label                         = Almajd
 protocol                      = newcamd
-device                        = 192.168.100.21,5620
+device                        = 127.0.0.1,5620
 key                           = 0102030405060708091011121314
 user                          = alma
 password                      = jd26
@@ -1189,7 +1189,7 @@ group                         = 1
 [reader]
 label                         = SKY_UK_28
 protocol                      = newcamd
-device                        = 192.168.100.21,5621
+device                        = 127.0.0.1,5621
 key                           = 0102030405060708091011121314
 user                          = 1eng
 password                      = lezi
@@ -1199,7 +1199,7 @@ group                         = 1
 [reader]
 label                         = SkyUK_28
 protocol                      = newcamd
-device                        = 192.168.100.21,5622
+device                        = 127.0.0.1,5622
 key                           = 0102030405060708091011121314
 user                          = 2uks
 password                      = skye
@@ -1209,7 +1209,7 @@ group                         = 1
 [reader]
 label                         = OTE_9E_39E
 protocol                      = newcamd
-device                        = 192.168.100.21,5623
+device                        = 127.0.0.1,5623
 key                           = 0102030405060708091011121314
 user                          = ote39
 password                      = paket
@@ -1219,7 +1219,7 @@ group                         = 1
 [reader]
 label                         = Kabel_Deutschland_23E
 protocol                      = newcamd
-device                        = 192.168.100.21,5624
+device                        = 127.0.0.1,5624
 key                           = 0102030405060708091011121314
 user                          = lebak
 password                      = tschl
@@ -1229,7 +1229,7 @@ group                         = 1
 [reader]
 label                         = UPC_Direkt_1W
 protocol                      = newcamd
-device                        = 192.168.100.21,5625
+device                        = 127.0.0.1,5625
 key                           = 0102030405060708091011121314
 user                          = direk
 password                      = tupc
@@ -1239,7 +1239,7 @@ group                         = 1
 [reader]
 label                         = AthinaSat_39E
 protocol                      = newcamd
-device                        = 192.168.100.21,5626
+device                        = 127.0.0.1,5626
 key                           = 0102030405060708091011121314
 user                          = athi
 password                      = nasat
@@ -1249,7 +1249,7 @@ group                         = 1
 [reader]
 label                         = Viasat
 protocol                      = newcamd
-device                        = 192.168.100.21,5627
+device                        = 127.0.0.1,5627
 key                           = 0102030405060708091011121314
 user                          = sata
 password                      = viass
