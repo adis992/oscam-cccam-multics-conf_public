@@ -89,4 +89,9 @@ echo "   - http://$(hostname -I | awk '{print $1}'):8888  (OSCAM Web- postaviti 
 echo "   - http://$(hostname -I | awk '{print $1}'):5500  (Multics Web-postaviti user/pwd za login radi secure )"
 echo "   - http://$(hostname -I | awk '{print $1}'):16001  (Multics Web-NIJE POKRENUT ako ces vec pokretati i cccam onda postaviti user/pwd za login radi secure i service)"
 echo "-------------------------------------------------------"
+systemctl enable oscam
+systemctl enable multics
+systemctl start oscam
+systemctl start multics
+echo ">> Servisi za multics i oscam su pokrenuti, ako zelite i cccam morate konfigurisati i kreirati servis i pokrenuti!"
 echo "[+] Završeno!"
