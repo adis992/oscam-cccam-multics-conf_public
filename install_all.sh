@@ -85,9 +85,9 @@ echo ""
 echo "-------------------------------------------------------"
 echo ">> Instalacija završena!"
 echo ">> Otvorite u browseru:"
-echo "   - http://$(hostname -I | awk '{print $1}'):8888  (OSCAM Web- postaviti user/pwd za login radi secure)"
-echo "   - http://$(hostname -I | awk '{print $1}'):5500  (Multics Web-postaviti user/pwd za login radi secure )"
-echo "   - http://$(hostname -I | awk '{print $1}'):16001  (Multics Web-NIJE POKRENUT ako ces vec pokretati i cccam onda postaviti user/pwd za login radi secure i service)"
+echo "   - http://$(hostname -I | awk '{print $1}'):8888  (OSCAM Web- postaviti user/pwd za login radi sigurnosti)"
+echo "   - http://$(hostname -I | awk '{print $1}'):5500  (Multics Web-postaviti user/pwd za login radi sigurnosti )"
+echo "   - http://$(hostname -I | awk '{print $1}'):16001  (Cccam Web-NIJE POKRENUT ako ces vec pokretati i cccam onda postaviti user/pwd za login radi secure i service)"
 echo "-------------------------------------------------------"
 systemctl enable oscam
 systemctl enable multics
